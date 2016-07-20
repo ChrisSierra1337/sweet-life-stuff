@@ -1,0 +1,372 @@
+@charset "UTF-8";
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	width: 100%;
+	text-decoration: none;
+}
+
+body {
+	height: 100%;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	background-image: url("http://www.aeronautics.us.com/wp-content/uploads/2015/12/low-altitude-miami.jpg");
+}
+
+hr {
+	width: 100%;
+	border-width: 0.5px;
+	border-style: solid;
+}
+
+#nav {
+	background-color: #86e3c4;
+	position: fixed;
+	z-index: 10;
+}
+
+#nav #bar {
+	font-size: 20px;
+	text-align: left;
+	margin-top: -40px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	padding-bottom: 20px;
+	padding-left: 100px;
+}
+
+#nav #bar a {
+	position: relative;
+	bottom: 7px;
+	height: 50px;
+	color: white;
+	margin-right: -10px;
+	padding: 36px 30px 27px 30px;
+}
+
+#nav #bar a:first-child {
+	background-color: #6eddb8;
+}
+
+#nav #bar a:hover {
+	background-color: #6eddb8;
+}
+
+#ticket-button-right{
+	margin-left: 18em;
+}
+
+#sideBar {
+	margin-top: 210px;
+	position: fixed;
+	z-index: 10;
+	width: 10%;
+}
+
+#banner {
+	width: 100%;
+	color: rgb(255, 94, 70);
+	background-image: url("http://www.businesskorea.co.kr/sites/default/files/field/image/beauty_2012_pic_01.jpg");
+	background-size: 100% 100%;
+	text-align: center;
+	font-size: 120px;
+	padding-top: 130px;
+	padding-bottom: 190px;
+}
+
+#banner h5 {
+	font-size: 100px;
+}
+
+#banner h6 {
+	font-size: 50px;
+}
+
+#ticket-title {
+	width: 100%;
+	font-size: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center
+}
+
+#ticket-banner {
+	width: 100%;
+	height: 500px;
+	background-image: url("https://luckydesignlady.files.wordpress.com/2014/09/finalprettypattern.png");
+	background-size: 10%;
+	text-align: center;
+	position: relative;
+	top: 60px;
+	padding-bottom: 55px;
+}
+
+#ticket-banner h4 {
+	position: relative;
+	top: 11%;
+	font-size: 20px;
+	background-color: hotpink;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom-left-radius: 1em;
+	border-bottom-right-radius: 1em;
+}
+
+#ticket-banner li {
+	display: inline-block;
+	padding-top: 20px;
+}
+
+#ticket-left h2 {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: silver;
+	border-top-left-radius: 0.65em; 
+	border-top-right-radius: 0.65em;
+}
+
+#ticket-middle h2 {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: rgb(117, 117, 117);
+	border-top-left-radius: 0.65em; 
+	border-top-right-radius: 0.65em;
+}
+
+#ticket-right h2 {
+	font-size: 30px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background-color: gold;
+	border-top-left-radius: 0.65em; 
+	border-top-right-radius: 0.65em;
+}
+
+#ticket-left {
+	position: absolute;
+	left: 10%;
+	background-color: #86e3c4;
+	width: 20%;
+	height: 340px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+#ticket-middle {
+	position: absolute;
+	left: 40%;
+	background-color: #86e3c4;
+	width: 20%;
+	height: 340px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);;
+}
+
+#ticket-right {
+	position: absolute;
+	left: 70%;
+	background-color: #86e3c4;
+	width: 20%;
+	height: 340px;
+	border-radius: 20px;
+	box-shadow: 10px 10px 10px rgba(0,0,0,.5);
+}
+
+#footer {
+	width: 100%;
+	padding-right: 1.3em;
+	margin-top: 4em;
+	clear: both;
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+
+#footer h3 {
+	font-size: 30px;
+	padding: 10px;
+}
+
+#footer div {
+	padding-bottom: 20px;
+}
+
+.hidden {
+	visibility: none;
+}
+
+.container {
+	font-size: 1em;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+	background-color: rgba(134, 227, 196, 0.6);
+	padding: 1em;
+}
+
+.container h2 {
+	font-size: 2em;
+	text-align: center;
+	margin-bottom: 1em;
+}
+
+.button {
+	font-size: 15px;
+	text-align: center;
+	margin-top: -79px;
+}
+
+.button h6 {
+	padding: 25px;
+	display: inline;
+	margin-right: 20px;
+	margin-left: 20px;
+	border-radius: 5%;
+}
+
+.cyan-button {
+	background: rgb(0, 241, 252);
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0);
+	border-width: 1px;
+	color: white;
+}
+
+.hotpink-button {
+	background: rgba(0, 0, 0, 0);
+	border-style: solid;
+	border-width: 1px;
+	border-color: hotpink;
+	color: hotpink;
+}
+
+.cyan-button:hover {
+	background: rgba(0, 0, 0, 0);
+	color: cyan;
+	border-style: solid;
+	border-color: cyan;
+	border-width: 1px;
+}
+
+.hotpink-button:hover {
+	border-color: rgba(0, 0, 0, 0);
+	background-color: hotpink;
+	border-width: 1px;
+	color: white;
+}
+
+/* New code from here */
+
+#sign-up {
+	display: inline-block;
+	width: 80%;
+	height: 30em;
+	margin-left: 10%;
+	margin-top: 10%;
+	background-color: rgba(134, 227, 196, 0.6);
+}
+
+#sign-up h2 {
+	color: hotpink;
+	font-family: 'Franklin Gothic Medium';
+	text-align: center;
+	font-size: 3em;
+	margin-top: 1em;
+	display: inline-block;
+}
+
+input[type="text"] {
+	border-style: none;
+	border-bottom: 0.125em solid hotpink;
+}
+
+input[type="password"] {
+	border-style: none;
+	border-bottom: 0.125em solid hotpink;
+}
+
+input[type="text"]:focus {
+	outline-style: none;
+	background-color: rgba(220, 220, 220, 0.5);
+}
+
+input[type="password"]:focus {
+	outline-style: none;
+	background-color: rgba(220, 220, 220, 0.5);
+}
+
+.input-email {
+	margin-top: 3em;
+	margin-right: 21.5em;
+}
+
+form {
+	text-align: center;
+	margin-top: 5%;
+}
+
+form input {
+	color: black;
+	font-size: 0.8em;
+	margin-left: 1em;
+	width: 20em;
+	height: 2em;
+	background-color: rgba(134, 227, 196, 0);
+}
+
+.password {
+	margin-top: 5%;
+}
+
+::-webkit-input-placeholder {
+  color: hotpink;
+}
+
+#submit-button {
+	margin-top: 4em;
+}
+
+#submit-button button {
+	color: hotpink;
+	background-color: rgba(0, 0, 0, 0);
+	font-size: 1.5em;
+	border-style: solid;
+	border-width: 2px;
+	border-color: hotpink;
+	border-radius: 4px;
+}
+
+#submit-button button:hover {
+	background-color: hotpink;
+	color: white;
+}
+
+/*#message {
+	position: relative;
+	margin-left: 61em;
+	top: -2.2em;
+	width: 20%;
+}*/
+
+button[type="submit"] {
+	outline-style: none;
+}

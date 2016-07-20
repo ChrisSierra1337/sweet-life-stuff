@@ -1,0 +1,73 @@
+<!-- Join SoFlo -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=“UTF-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <link href="sweetlife-stylesheet.css" rel="stylesheet" type=“text/css">
+    <meta charset="UTF-8">
+    <title>Sweet Life</title>
+  </head>
+  <body>
+    
+      <div id = "nav">
+          <img src="Website_Properties/Sweet_Life/SoFloLogo.png" style="width: 5em; height: 5em; margin-bottom: -0.438em;">
+          <ul id = "bar">
+          <a href="index.html">HOME</a>
+          <a href="aboutus.html">ABOUT US</a>
+          <a >COURSES</a>
+          <a href="contact.html">CONTACT US</a>
+          <a href="join.html">JOIN SoFlo</a>
+        </ul>
+      </div>
+      
+      <div id = "sideBar">
+        <ul>
+          <li><img src="Website_Properties/General_Pictures/Social_Media/Facebook.png" alt="Facebook Logo" style="height: 1.563em; width: 1.563em;"></li><!--fb,tw,in,go,yt-->
+          <li><img src="Website_Properties/General_Pictures/Social_Media/Twitter.png" alt="Twitter Logo" style="height: 1.563em; width: 1.563em;"></li>
+          <li><img src="Website_Properties/General_Pictures/Social_Media/Instagram.png" alt="Instagram Logo" style="height: 1.563em; width: 1.563em;"></li>
+          <li><img src="Website_Properties/General_Pictures/Social_Media/Google+.png" alt="Google+ Logo" style="height: 1.563em; width: 1.563em;"></li>
+          <li><img src="Website_Properties/General_Pictures/Social_Media/Youtube.png" alt="Youtube Logo" style="height: 1.563em; width: 1.563em"</li>
+        </ul>
+      </div>
+      
+      <div id="sign-up">
+        <h2>Register</h2>
+        <form action="http://fvi-grad.com:4004/email" method="POST">
+          <input type="hidden" name="dest_email">
+          <input type="text" placeholder="First Name">
+          <input type="text" placeholder="Last Name">
+          <div>
+            <input type="text" placeholder="E-Mail" class="input-email">
+          </div>
+          <div class="password">
+            <input type="password" placeholder="Password" class="input-password">
+            <input type="password" placeholder="Confirm Password">
+          </div>
+          <div id="submit-button" class="send-me-home">
+            <button type="submit">Sign Up</button>
+          </div>
+        </form>
+      </div>
+      
+      <div id="footer">
+          <h3>Contact</h3>
+          <div>
+            <ul>
+              <li>E-mail: <a href="#!">YourEmail</a></li>
+              <li>Phone Number: YourPhoneNumber</li>
+            </ul>
+            <p>Procrastination is the art of keeping up with yesterday.</p>
+            <p>-Don Marquis</p>
+         </div>
+      </div>
+      
+  </body>
+  <script>
+    $(document).ready(function(){
+      $("submit-button").on("click", function() {
+        $.ajax()
+      });
+    });
+  </script>
+</html>
